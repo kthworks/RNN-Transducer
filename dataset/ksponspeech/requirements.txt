@@ -1,0 +1,6 @@
+tqdm
+gluonnlp
+sentencepiece
+hgtk
+pandas
+joblib
