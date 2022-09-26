@@ -30,7 +30,7 @@ class JointNet(nn.Module):
         PredictionNet_output (torch.FloatTensor): (batch, seq_length, PredictionNet_out_dim=512)
                    
     Output: 
-        JointNet_output (torch.FloatTensor): (batch, seq_length, out_dim = vocab size = 149)
+        JointNet_output (torch.FloatTensor): (batch, seq_length, out_dim = vocab size = 110)
     '''
     
     def __init__(
