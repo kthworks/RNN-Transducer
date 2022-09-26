@@ -5,7 +5,7 @@
 # Reference:
 #   Sooftware: https://github.com/sooftware/kospeech/tree/latest/kospeech/models/rnnt    
 #   Jiho Jeong: https://github.com/fd873630/RNN-Transducer/tree/c1158689ba23ccf11091107c69f52f1e28219b62
-#   
+#   upskyy: https://github.com/upskyy/RNN-Transducer/tree/main/rnn_transducer
 
 import torch
 import torch.nn as nn
