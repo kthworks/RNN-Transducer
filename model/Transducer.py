@@ -22,7 +22,7 @@ class JointNet(nn.Module):
     Args: 
         - input_dim (int): dimension of input vector = (out_dim of TranscriptionNet + out_dim of PredictionNet = 1024)
         - hidden_dim (int, optional) : dimension of hidden layer (default: 512)
-        - vocab_size (int, optional): output dimension of JointNet = (vocab size = 149)
+        - vocab_size (int, optional): output dimension of JointNet = (vocab size = 110)
     
     Input: 
         TranscriptionNet_output (torch.FloatTensor): (batch, seq_length, transcriptionNet_out_dim=512)
